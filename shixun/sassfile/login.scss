@@ -1,0 +1,406 @@
+@charset "utf-8";
+@import "public";
+#top{
+  height:30px;
+  background:#f2f2f2;
+}
+#top .top-r{
+    float:right;
+    position:relative;
+    font:12px/30px "";
+    a{
+        color:red;
+        display:inline-block;
+        margin:0 5px;
+    }
+    span{
+        margin:0 5px 0 5px;
+    }
+    b i{
+        display:inline-block;
+        background:url(../img/tup.png) no-repeat right;
+        background-position: -96px 0;
+        width:8px;
+        height:4px;
+        margin:0 5px;
+    }
+}
+#top .top-r .order{
+    text-align: center;
+    display:inline-block;
+    width:77px;
+    height:32px;
+}
+#top .top-r .b_order{
+    position:absolute;
+    width:77px;
+    height:66px;
+    border: 1px solid #dfdfdf;
+    left:0px;
+    display:none;
+    background:#fff;
+    z-index:2;
+    a{
+        display:block;
+        color:#666;
+    }
+    a:hover{
+        color:red;
+    }
+}
+#top .top-r .order:hover{
+    background:#fff;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;;
+}
+#top .top-r b.sjlf i{
+        display:inline-block;
+        background:url(../img/tub.png) no-repeat right;
+        background-position: -541px -257px;
+        width:9px;
+        height:14px;
+        margin:0 5px;
+}
+#top .top-r .quick_nav{
+    width:77px;
+    height:32px;
+    text-align: center;
+    display:inline-block;
+}
+#top .top-r .quick_nav:hover{
+    background:#fff;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;; 
+}
+#top .top-r .b_q_nav{
+    position: absolute;
+    border: 1px solid #dfdfdf;
+    width: 137px;
+    padding-top: 6px;
+    background: #fff;
+    left:81px;
+    text-align: center;
+    display: none;
+    z-index:2;
+    img{
+        margin-left:10px;
+    }
+    a{
+        color:#666;
+    }
+    a:hover{
+        color:red;
+    }
+    
+}
+//手机乐峰
+#top .top-r .sjlf{
+    text-align: center;
+    display:inline-block;
+    width:77px;
+    height:32px;
+}
+#top .top-r .sjlf:hover{
+    background:#fff;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;; 
+}
+#top .top-r .b_sjlf{
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    right: 0px;
+    width: 137px;
+    background-repeat: no-repeat;
+    background-image: none;
+    z-index: 99;
+    background:#fff;
+    display:none;
+    img{
+        margin:12px;
+    }
+    h6{
+        margin-left:15px;
+    }
+    h6 b.i1{
+        display:inline-block;
+        background:url(../img/tub.png) no-repeat right;
+        background-position: -536px -284px;
+        width:20px;
+        height:20px;
+        margin:0 5px; 
+    }
+    h6 b.i2{
+        display:inline-block;
+        background:url(../img/tub.png) no-repeat right;
+        background-position: -536px -315px;
+        width:20px;
+        height:20px;
+        margin:0 5px; 
+    }
+}
+
+
+#article{
+    width:100%;
+    overflow: hidden;
+    background:#fbe1d3;
+    padding-bottom:150px;
+//  background:#fff;
+    position:relative;
+    .logo{
+        display:block;
+        background:url(../img/tub.png) no-repeat;
+        background-position:-123px 0;
+        width:173px;
+        height:87px;
+        margin-left:10px;
+    }
+    .bb{
+        display:block;
+        background:url(../img/login_bg.png) no-repeat;
+        width:1000px;
+        height:634px;
+        float:left;
+       
+    }
+    .biao{
+        border-radius: 5px;
+        width:420px;
+        position:absolute;
+        background:#fff;
+//      height:499px;
+        right:70px;
+        top:110px;
+        .p{
+            margin-top:-20px;
+            margin-left:60px;
+            font:12px/24px "";
+        }
+        .s-1{
+            display:inline-block;
+            margin-left:60px;
+            padding:10px 0;
+            width:150px;
+            
+            i{
+                display:inline-block;
+                background:url(../img/login_tu.png) no-repeat;
+                background-position: -304px -434px;
+                width:26px;
+                height:25px;
+                vertical-align: middle;
+            }
+            b{
+                display:inline-block;
+                margin-left:10px;
+                color:#ddd;
+            }
+        }
+        .s-2{
+            display:inline-block;
+            width:150px;
+            padding:10px 0;
+            i{
+                display:inline-block;
+                background:url(../img/login_tu.png) no-repeat;
+                background-position: 0 -434px;
+                width:23px;
+                height:25px;
+                 vertical-align: middle;
+            }
+            b{
+                display:inline-block;
+                margin-left:10px;
+                color:#ddd;
+            }
+        }
+        .s-3{
+            display:inline-block;
+            margin-left:60px;
+            width:150px;
+            padding:10px 0;
+            i{
+                display:inline-block;
+                background:url(../img/login_tu.png) no-repeat;
+                background-position: -121px -434px;
+                width:24px;
+                height:25px;
+                 vertical-align: middle;
+            }
+            b{
+                display:inline-block;
+                margin-left:10px;
+                color:#ddd;
+            }
+        }
+        .title{      
+                display:block;  
+                padding: 25px 60px 0 60px;
+                margin-bottom: 20px;
+                height:36px;
+                h3{
+                    background:url(../img/login_tu.png) no-repeat;
+                    background-position: 0 -80px;
+                    width:56px;
+                    height:25px;
+                    float:left;
+                }
+                span{
+                    float:right;
+                    font:12px/36px "";
+                    color:#02b1cb;
+                }
+        }
+        form{
+            ul{
+                padding: 0 60px;
+                margin-top: 35px;
+                li{
+                    height:85px;
+                    
+                    span{
+                        display:block;
+                        font:700 14px/20px "";
+                        em{
+                            margin-left:200px;
+                            color:#02b1cb;
+                            font:12px/24px "";
+                        }
+                    }
+                    input{
+                        width: 278px;
+                        height: 33px;
+                        border: 1px solid #ccc;
+                        font-size: 12px;
+                        font-weight: bold;
+                        color: #666;
+                        padding: 0 10px;
+//                      outline: none;
+                    }
+                    .te{
+                        width:110px;
+                    }
+                    #suiji{
+                        display:inline-block;
+                            height: 40px;
+                            width: 85px;
+                            margin-left:10px;
+                            font:700 18px/40px "";
+                    }
+                    s{
+                        display:inline-block;
+                        font-weight: 700;
+                    }
+                    strong{
+                        display: inline-block;
+                        width:45px;
+                        height: 40px;
+                        color: #a0a0a0;
+                        text-decoration: underline;
+                        margin-left:4px;
+                    }
+                }
+                
+            }
+            .login{
+                    span{
+                        display:inline-block;
+                        background: url(../img/login_tu.png) no-repeat;
+                        background-position:0 -262px;
+                        width:300px;
+                        height:42px;
+                        position:relative;
+                        z-index: 2;
+                        input{
+                            width:300px;
+                            height:42px;
+                            display:block;
+                            font:18px/42px "";
+                            text-align: center;
+                            color:#fff;
+                            background:red;
+                            border:0;
+                            border-radius: 5px;
+                        }
+                    }
+                    
+                }
+                .last{
+                   s{
+                       display:block;
+                       width:300px;
+                       height:10px;
+                       border-bottom:1px solid #EEEEEE;
+                       margin-top:-30px;
+                       
+                   }
+                }
+        }
+    }
+    
+}
+//#article .biao{
+//  width:420px;
+//  float:right;
+//  
+//}
+
+#footer{
+    width:100%;
+       .footer_b{
+        text-align: center;
+        margin: 31px auto 0px auto;
+        .footer-b-a{
+//          display:flex;
+//          justify-content: space-around;
+            a{
+               font:12px/22px "";
+               color:#000;
+               padding: 0 20px 0 0;  
+            }
+        }
+        span{
+            font:12px/22px "";
+            color:#999;
+        }
+        .footer-b-img{
+//          display: flex;
+//          justify-content: space-around;
+//          float:left;
+            text-align: center;
+            padding:10px 0 20px;
+            a{
+                display:inline-block;
+            }
+            .img01{
+                background:url(../img/tub.png) no-repeat;
+                background-position: -194px -205px;
+                width:101px;
+                height:37px;
+            }
+            .img02{
+                background:url(../img/tub.png) no-repeat;
+                background-position: -194px -241px;
+                width:101px;
+                height:37px;
+            }
+            .img03{
+                background:url(../img/tub.png) no-repeat;
+                background-position: -194px -277px;
+                width:101px;
+                height:37px;
+            }
+            .img04{
+                background:url(../img/hulianwang.png) no-repeat;
+                width:101px;
+                height:37px;
+            }
+            .img05{
+                background:url(../img/tub.png) no-repeat;
+                background-position: -194px -314px;
+                width:95px;
+                height:38px;
+            }
+        }
+    }
+}

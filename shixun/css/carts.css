@@ -1,0 +1,382 @@
+.margin {
+  width: 1000px;
+  margin: 0 auto; }
+
+#top {
+  height: 40px;
+  background: #E3E3E3;
+  text-align: right;
+  font: 14px/40px ""; }
+
+#header {
+  height: 120px;
+  border-bottom: 2px solid red; }
+  #header i {
+    display: inline-block;
+    background: url(../img/tub.png) no-repeat right;
+    background-position: -124px 0px;
+    width: 170px;
+    height: 87px;
+    margin: 10px 5px;
+    float: left; }
+
+#container #s_title {
+  height: 40px;
+  font: 700 14px/40px ""; }
+  #container #s_title span {
+    color: red; }
+#container #goods_formation {
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  #container #goods_formation ul {
+    width: 100%; }
+    #container #goods_formation ul .g_t {
+      height: 36px;
+      font: 14px/36px "";
+      background: #E3E3E3; }
+      #container #goods_formation ul .g_t .left {
+        float: left; }
+        #container #goods_formation ul .g_t .left i {
+          height: 50px;
+          width: 2px;
+          border: 1px solid red; }
+        #container #goods_formation ul .g_t .left span {
+          margin-left: 20px; }
+      #container #goods_formation ul .g_t .right {
+        float: right;
+        text-align: center;
+        color: red; }
+        #container #goods_formation ul .g_t .right span {
+          display: inline-block;
+          width: 117px; }
+    #container #goods_formation ul .g_c {
+      height: 120px;
+      border: 1px solid #E0E0E0;
+      padding-top: 40px; }
+      #container #goods_formation ul .g_c p {
+        float: right;
+        width: 117px;
+        text-align: center; }
+      #container #goods_formation ul .g_c p.num .numb {
+        width: 40px;
+        height: 20px; }
+      #container #goods_formation ul .g_c p.num .jian {
+        width: 24px;
+        height: 24px;
+        margin-right: -6px; }
+      #container #goods_formation ul .g_c p.num .add {
+        width: 24px;
+        height: 24px;
+        margin-left: -6px; }
+      #container #goods_formation ul .g_c .pic {
+        float: left;
+        width: 58px;
+        margin-left: 30px; }
+        #container #goods_formation ul .g_c .pic img {
+          width: 58px;
+          height: 74px;
+          border: 1px solid #ccc; }
+      #container #goods_formation ul .g_c .price span {
+        display: block;
+        height: 20px;
+        font: 14px/20px ""; }
+      #container #goods_formation ul .g_c .price .y_p {
+        text-decoration: line-through; }
+      #container #goods_formation ul .g_c .price .x_p {
+        color: red; }
+      #container #goods_formation ul .g_c .xiao_j span {
+        display: block;
+        height: 20px;
+        font: 14px/20px "";
+        color: red; }
+      #container #goods_formation ul .g_c .op input {
+        background: #fff; }
+      #container #goods_formation ul .g_c .guige {
+        float: left;
+        width: 240px;
+        text-align: left; }
+        #container #goods_formation ul .g_c .guige span {
+          display: block;
+          width: 240px;
+          height: 40px;
+          margin-left: 30px; }
+  #container #goods_formation .g_b {
+    height: 36px;
+    font: 14px/36px "";
+    background: #E3E3E3; }
+    #container #goods_formation .g_b p {
+      display: inline-block; }
+    #container #goods_formation .g_b .yun {
+      width: 40px;
+      height: 30px;
+      font: 700 14px/30px "";
+      background: #F48719;
+      color: #fff;
+      text-align: center;
+      margin-left: 30px; }
+    #container #goods_formation .g_b .y_p {
+      color: #fff;
+      margin-left: 20px; }
+#container #jiesuan {
+  width: 100%;
+  border: 1px solid #E0E0E0;
+  margin-bottom: 20px; }
+  #container #jiesuan .ka {
+    background: #E0E0E0; }
+    #container #jiesuan .ka .ka_t {
+      margin: 0 20px;
+      height: 60px;
+      font: 20px/60px "";
+      border-bottom: 1px dashed #333;
+      color: #333; }
+      #container #jiesuan .ka .ka_t s {
+        color: red;
+        margin: 0 10px; }
+    #container #jiesuan .ka .ka_b {
+      height: 40px;
+      text-align: right;
+      font: 14px/40px ""; }
+      #container #jiesuan .ka .ka_b .geshu {
+        margin-right: 50px; }
+        #container #jiesuan .ka .ka_b .geshu i {
+          color: red;
+          margin: 0 10px; }
+      #container #jiesuan .ka .ka_b .jiage {
+        margin-right: 20px;
+        color: red; }
+  #container #jiesuan .zong_p {
+    height: 70px;
+    font: 20px/70px "";
+    text-align: right; }
+    #container #jiesuan .zong_p span {
+      margin-right: 50px; }
+    #container #jiesuan .zong_p em {
+      color: red;
+      margin-right: 20px; }
+  #container #jiesuan .suan {
+    height: 40px;
+    background: #E0E0E0; }
+    #container #jiesuan .suan .s_l {
+      float: left;
+      font: 14px/40px "";
+      margin-left: 20px; }
+    #container #jiesuan .suan .s_r {
+      float: right;
+      display: block;
+      width: 150px;
+      height: 40px;
+      background: red;
+      color: #fff;
+      font: 700 24px/40px "";
+      text-align: center; }
+
+#kong {
+  width: 100%;
+  text-align: center;
+  position: relative; }
+  #kong .logo i {
+    display: block;
+    position: absolute;
+    background: url(../img/tup.png) no-repeat;
+    background-position: -213px 0;
+    width: 83px;
+    height: 83px;
+    left: 18px;
+    top: 10px; }
+  #kong .d_title {
+    font: 24px/48px "";
+    color: #E0E0E0;
+    margin-top: 30px; }
+  #kong .back {
+    font: 18px/24px "";
+    margin: 10px 0; }
+    #kong .back a {
+      display: inline-block;
+      width: 100px;
+      height: 30px;
+      background: red;
+      border: 1px solid #eee;
+      font: 14px/30px "";
+      color: #fff;
+      margin: 0 20px; }
+  #kong .search {
+    margin: 20px 0;
+    position: relative; }
+    #kong .search .input {
+      width: 200px;
+      height: 30px; }
+    #kong .search .Lis {
+      width: 200px;
+      border: 1px dashed #E0E0E0;
+      position: absolute;
+      left: 381px;
+      right: 2px;
+      background: #fff; }
+      #kong .search .Lis li {
+        font: 21px/24px "";
+        color: red; }
+    #kong .search .sear {
+      width: 34px;
+      height: 34px;
+      margin-left: -6px;
+      border: 0;
+      background: red;
+      color: #fff; }
+
+#tan_k {
+  width: 400px;
+  height: 200px;
+  border: 1px solid #000; }
+  #tan_k .j_title {
+    width: 100%;
+    height: 20px; }
+    #tan_k .j_title h4 {
+      font: 14px/20px "";
+      float: left; }
+      #tan_k .j_title h4 span {
+        float: right; }
+
+#footer {
+  background: #fff;
+  border-top: 1px solid red; }
+  #footer .footer_t ul {
+    height: 138px;
+    border-bottom: 1px dashed #c1c1c1; }
+  #footer .footer_t li {
+    margin: auto 0;
+    float: left; }
+  #footer .footer_t .li01 {
+    background: url(../img/tup.png) no-repeat;
+    background-position: 0 -201px;
+    width: 168px;
+    height: 74px;
+    margin: 30px 60px; }
+  #footer .footer_t .li02 {
+    background: url(../img/tup.png) no-repeat;
+    background-position: 0 -279px;
+    width: 209px;
+    height: 77px;
+    margin: 30px 100px; }
+  #footer .footer_t .li03 {
+    background: url(../img/tup.png) no-repeat;
+    background-position: 0 -359px;
+    width: 168px;
+    height: 81px;
+    margin: 30px 60px; }
+  #footer .footer_c {
+    height: 250px;
+    border-bottom: 1px dashed #c1c1c1; }
+    #footer .footer_c dt {
+      float: left;
+      width: 216px;
+      padding: 30px 30px 0 0; }
+      #footer .footer_c dt strong {
+        display: block;
+        background: url(../img/tub.png) no-repeat;
+        width: 174px;
+        height: 112px;
+        background-position: -315px -259px;
+        margin-top: 10px; }
+      #footer .footer_c dt em {
+        display: block;
+        text-indent: 8px; }
+    #footer .footer_c dd {
+      color: #666;
+      font-size: 12px;
+      padding-right: 80px;
+      float: left;
+      padding: 20px 65px 0 0; }
+      #footer .footer_c dd strong {
+        line-height: 80px; }
+      #footer .footer_c dd a {
+        display: block;
+        line-height: 22px; }
+    #footer .footer_c .f-sao1 strong {
+      font-size: 16px;
+      line-height: 80px; }
+    #footer .footer_c .f-sao1 b {
+      display: block;
+      background: url(../img/tub.png) no-repeat;
+      width: 77px;
+      height: 77px;
+      border: 1px solid #ccc;
+      background-position: -229px -368px;
+      padding: 4px; }
+  #footer .footer_b {
+    text-align: center;
+    margin: 31px auto 0px auto; }
+    #footer .footer_b .footer-b-a {
+      width: 100%;
+      float: left; }
+      #footer .footer_b .footer-b-a a {
+        font: 12px/22px "";
+        color: #000;
+        padding: 0 20px 0 0; }
+    #footer .footer_b span {
+      font: 12px/22px "";
+      color: #999; }
+    #footer .footer_b .footer-b-img {
+      padding: 10px 0 20px; }
+      #footer .footer_b .footer-b-img a {
+        display: inline-block; }
+      #footer .footer_b .footer-b-img .img01 {
+        background: url(../img/tub.png) no-repeat;
+        background-position: -194px -205px;
+        width: 101px;
+        height: 37px; }
+      #footer .footer_b .footer-b-img .img02 {
+        background: url(../img/tub.png) no-repeat;
+        background-position: -194px -241px;
+        width: 101px;
+        height: 37px; }
+      #footer .footer_b .footer-b-img .img03 {
+        background: url(../img/tub.png) no-repeat;
+        background-position: -194px -277px;
+        width: 101px;
+        height: 37px; }
+      #footer .footer_b .footer-b-img .img04 {
+        background: url(../img/hulianwang.png) no-repeat;
+        width: 101px;
+        height: 37px; }
+      #footer .footer_b .footer-b-img .img05 {
+        background: url(../img/tub.png) no-repeat;
+        background-position: -194px -314px;
+        width: 95px;
+        height: 38px; }
+
+#g_l {
+  width: 100%;
+  overflow: hidden;
+  text-align: center; }
+  #g_l .g_l_l {
+    float: left;
+    width: 227px;
+    height: 338px;
+    border: 1px solid #000;
+    margin: 10px; }
+    #g_l .g_l_l img {
+      width: 200px;
+      height: 253px;
+      display: block;
+      margin: 0 auto; }
+    #g_l .g_l_l .title {
+      font: 14px/24px ""; }
+    #g_l .g_l_l .price .x_price {
+      font: 14px/24px ""; }
+    #g_l .g_l_l .price .y_price {
+      font: 12px/24px "";
+      text-decoration: line-through; }
+    #g_l .g_l_l .opas {
+      width: 70px;
+      height: 30px;
+      text-align: center;
+      margin: 0 auto; }
+      #g_l .g_l_l .opas i {
+        display: inline-block;
+        width: 70px;
+        height: 30px;
+        background: red;
+        color: #fff;
+        font: 14px/30px ""; }
+
+/*# sourceMappingURL=carts.css.map */
